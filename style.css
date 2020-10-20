@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(73, 73, 73);
+    color: white;
+    margin: 3%;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+button{
+    background-color: rgb(0, 105, 97);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50%;    
+    transition: .5s;
+}
+button:hover{
+    background-color: rgb(0, 102, 255);
+    transition: .5s;
+}
+.selections{
+    display: flex;
+    justify-content: space-between;
+}
+.controls{
+    margin-top: 10%;
+    display: flex;
+    justify-content:  space-around;
+}
+#reset-btn{
+    background-color: maroon;
+    transition: .5s;
+}
+#reset-btn:hover{
+    background-color: rgb(255, 122, 34);
+    transition: .5s;
+}
+#again-btn{
+    background-color: rgb(218, 141, 0);
+    transition: .5s;
+}
+#again-btn:hover{
+    background-color: rgb(255, 108, 50);
+    transition: .5s;
+}
+.player2 , .score{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#selected{
+    color: white;
+}
+.score{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#player1score{
+    background-color: skyblue;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 20px;
+}
+#player2score{
+    background-color: rgb(217, 235, 135);
+    border-radius: 5px;
+    padding: 20px;
+}
