@@ -5,7 +5,12 @@ body{
     color: white;
     margin: 3%;
 }
-
+#player1-title{
+    color: bisque;
+}
+#player2-title{
+    color: aquamarine;
+}
 .scoreboard{
     display: flex;
     justify-content: space-between;
@@ -73,6 +78,7 @@ button:hover{
     padding: 20px;
     display: flex;
     flex-direction: row;
+    margin-top: -200px;
 }
 #player1score{
     background-color: skyblue;
