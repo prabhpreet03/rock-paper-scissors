@@ -66,7 +66,7 @@ function scoreUp(){
         scoreUp();
     })
 
-let options = ['ROCK', 'PAPER', 'SCISSOR']
+let options = ['ROCK', 'PAPER', 'SCISSORS']
 function randomizer(){
     return options[Math.floor(Math.random()*Math.floor(3))];
 }
